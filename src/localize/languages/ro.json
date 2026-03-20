@@ -19,7 +19,9 @@
     "maxCellVoltage": "Tensiune maximă celulă (V)",
     "manualAssignment": "Atribuire manuală entități",
     "tempSensorsCount": "Număr senzori temperatură disponibili",
-    "hasHeater": "Opțiunea încălzitor este utilizată"
+    "hasHeater": "Opțiunea încălzitor este utilizată",
+    "socDecimals": "Zecimale SoC",
+    "customDecimals": "Zecimale alte controale"
   },
   "switches": {
     "charge": "Încărcare",

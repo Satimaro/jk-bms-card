@@ -19,7 +19,9 @@
     "maxCellVoltage": "Max Cell Voltage (V)",
     "manualAssignment": "Manual entity assignment",
     "tempSensorsCount": "Number of temperature sensors available",
-    "hasHeater": "Heater option is used"
+    "hasHeater": "Heater option is used",
+    "socDecimals": "SoC Decimals",
+    "customDecimals": "Custom Decimals"
   },
   "switches": {
     "charge": "Charge",
