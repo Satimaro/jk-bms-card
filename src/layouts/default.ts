@@ -22,6 +22,7 @@ export class JkBmsDefaultLayout extends LitElement {
             display: grid;
             gap: 4px;
             margin: 4px;
+            align-content: center;
         }
 
         .grid-1 {
@@ -142,6 +143,7 @@ export class JkBmsDefaultLayout extends LitElement {
 
         .center {
             text-align: center;
+            align-content: center;
         }
 
         .pill {
