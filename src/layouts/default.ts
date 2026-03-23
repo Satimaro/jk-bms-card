@@ -355,7 +355,7 @@ export class JkBmsDefaultLayout extends LitElement {
         this.minCellId = this.getState(EntityKey.min_voltage_cell, 0);
         this.maxCellId = this.getState(EntityKey.max_voltage_cell, 0);
 
-        if (!this.minCellId || !this.maxCellId || !this.maxDeltaV || this.maxDeltaV == 0 || true) {
+        if (!this.minCellId || !this.maxCellId || !this.maxDeltaV || this.maxDeltaV == 0) {
             this.calculateDynamicMinMaxCellId(totalCells)
         }
 
@@ -455,10 +455,11 @@ export class JkBmsDefaultLayout extends LitElement {
         const maxRect = maxEl.getBoundingClientRect();
 
         const getSideAnchor = (rect: DOMRect): { side: 'left' | 'right', x: number, y: number } => {
+            const columns = this.config?.cellColumns ?? 2;
             const centerX = rect.left + rect.width / 2;
             const midCardX = cardRect.left + cardRect.width / 2;
-            const side = centerX < midCardX ? 'right' : 'left';
-            const x = side === 'right' ? rect.right - cardRect.left : rect.left - cardRect.left;
+            const side = columns === 1 ? 'left' : (centerX < midCardX ? 'right' : 'left');
+            const x = columns === 1 ? cardRect.width / 2 - 80 : (side === 'right' ? rect.right - cardRect.left : rect.left - cardRect.left);
             const y = rect.top + rect.height / 2 - cardRect.top;
             return { side, x, y };
         };
