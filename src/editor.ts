@@ -114,6 +114,7 @@ export class JkBmsCardEditor extends LitElement implements LovelaceCardEditor {
                                         { label: 'Română',           value: 'ro' },
                                         { label: 'Українська',       value: 'uk' },
                                         { label: 'German',           value: 'de' },
+										{ label: 'Русский',			 value: 'ru' },
                                     ],
                                     mode: 'dropdown',
                                     }
