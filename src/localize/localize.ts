@@ -2,6 +2,7 @@ import * as en from './languages/en.json';
 import * as uk from './languages/uk.json';
 import * as ro from './languages/ro.json';
 import * as de from './languages/de.json';
+import * as ru from './languages/ru.json';
 import { globalData } from '../helpers/globals';
 
 const languages: any = {
