@@ -1,0 +1,71 @@
+{
+  "common": {
+    "title": "Карта JK BMS",
+    "description": "Настраиваемая карточка Home Assistant для эмуляции экрана JK BMS",
+    "version": "Версия"
+  },
+  "config": {
+    "language": "Язык",
+    "title": "Заголовок",
+    "prefix": "Префикс датчиков",
+    "cellCount": "Количество ячеек",
+    "cellColumns": "Количество столбцов",
+    "cellLayout": "Расположение ячеек",
+    "layout": "Макет",
+    "deltaVoltageUnit": "Единица дельта-напряжения",
+    "cellColorMode": "Режим цвета ячеек",
+    "cellOrientation": "Ориентация ячеек",
+    "minCellVoltage": "Мин. напряжение ячейки (В)",
+    "maxCellVoltage": "Макс. напряжение ячейки (В)",
+    "manualAssignment": "Ручное назначение сущностей",
+    "tempSensorsCount": "Количество доступных датчиков температуры",
+    "hasHeater": "Используется подогрев",
+    "socDecimals": "Знаков после запятой",
+    "customDecimals": "Пользовательские десятичные",
+    "showTitle": "Показывать заголовок",
+    "showButtons": "Показывать кнопки",
+    "showMain": "Показывать основную часть",
+    "showCells": "Показывать ячейки",
+    "showCardVersion": "Показывать версию карточки"
+  },
+  "switches": {
+    "charge": "Заряд",
+    "discharge": "Разряд",
+    "balance": "Балансировка",
+    "heater": "Подогрев"
+  },
+  "stats": {
+    "power": "Мощность:",
+    "capacity": "Ёмкость:",
+    "cycleCapacity": "Ёмкость цикла:",
+    "averageCellV": "Среднее напряжение ячейки:",
+    "balanceCurrent": "Ток балансировки:",
+    "stateOfCharge": "Заряд:",
+    "remainingAmps": "Остаток (А·ч):",
+    "cycles": "Циклы:",
+    "delta": "Дельта напряжения:",
+    "mosfetTemp": "Температура MOS:",
+    "minCellV": "Мин. (В):",
+    "maxCellV": "Макс. (В):",
+    "temperature_sensor_1": "Темп. 1:",
+    "temperature_sensor_2": "Темп. 2:",
+    "temperature_sensor_3": "Темп. 3:",
+    "temperature_sensor_4": "Темп. 4:"
+  },
+  "html_texts": {
+    "capacity": "Ёмкость",
+    "time": "Время",
+    "grid-solar": "Сеть/Солнце",
+    "load": "Нагрузка",
+    "total-voltage": "Общее напряжение",
+    "current": "Ток",
+    "mosfetTemp": "Темп. MOS",
+    "delta": "Дельта",
+    "temperature_sensor": "Темп",
+    "balancing": "Балансировка",
+    "volt": "В",
+    "charge": "Заряд",
+    "discharge": "Разряд",
+    "remaining": "Остаток"
+  }
+}
