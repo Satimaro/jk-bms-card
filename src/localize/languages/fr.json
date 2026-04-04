@@ -22,11 +22,11 @@
     "hasHeater": "Option chauffage activée",
     "socDecimals": "Décimales SOC",
     "customDecimals": "Décimales personnalisées",
-    "showTitle": "Afficher le titre",
-    "showButtons": "Afficher les boutons",
-    "showMain": "Afficher le panneau principal",
-    "showCells": "Afficher les cellules",
-    "showCardVersion": "Afficher la version de la carte"
+    "showTitle": "Titre",
+    "showButtons": "Boutons",
+    "showMain": "Principal",
+    "showCells": "Cellules",
+    "showCardVersion": "Version"
   },
   "switches": {
     "charge": "Charge",
