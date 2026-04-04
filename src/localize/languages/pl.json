@@ -22,11 +22,11 @@
     "hasHeater": "Opcja grzałki włączona",
     "socDecimals": "Miejsca po przecinku SOC",
     "customDecimals": "Własne miejsca po przecinku",
-    "showTitle": "Pokaż tytuł",
-    "showButtons": "Pokaż przyciski",
-    "showMain": "Pokaż główny panel",
-    "showCells": "Pokaż ogniwa",
-    "showCardVersion": "Pokaż wersję karty"
+  "showTitle": "Tytuł",
+  "showButtons": "Przyciski",
+  "showMain": "Panel",
+  "showCells": "Ogniwa",
+  "showCardVersion": "Wersja"
   },
   "switches": {
     "charge": "Ładowanie",
