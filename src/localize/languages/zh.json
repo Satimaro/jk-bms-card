@@ -22,11 +22,11 @@
     "hasHeater": "使用加热器选项",
     "socDecimals": "SOC 小数位数",
     "customDecimals": "自定义小数位",
-    "showTitle": "显示标题",
-    "showButtons": "显示按钮",
-    "showMain": "显示主面板",
-    "showCells": "显示电池",
-    "showCardVersion": "显示卡片版本"
+    "showTitle": "标题",
+    "showButtons": "按钮",
+    "showMain": "主面板",
+    "showCells": "电池",
+    "showCardVersion": "版本"
   },
   "switches": {
     "charge": "充电",
